@@ -4,9 +4,10 @@
 use_variable_with_
 
 (defun sword ()
-  "Print the word that point is on. Quite similar as 'current-word' as a ELisp command."
+  "Print the word that point is on. Quite similar as
+  'current-word' as a ELisp command."
   (interactive)
-  (prin1 (current-word))
+  (message (current-word))
 )
 
 
