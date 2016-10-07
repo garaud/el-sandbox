@@ -6,6 +6,7 @@
 
 
 (require 'calendar)
+(require 'cal-iso)
 
 ;; pattern SDD DD==digit
 (defvar *pattern* "\\bS\[0-9\]\\{2\\}\\b"
